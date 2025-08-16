@@ -17,7 +17,7 @@ from openai import OpenAI
 # =========================
 USE_HTTP_FALLBACK = os.getenv("FISHAUDIO_USE_HTTP", "").strip() == "1"
 FISH_API_KEY = os.getenv("FISHAUDIO_API_KEY", "68c1434a7dec4a6a886e5cebb8c98ee5")
-FISH_REF_ID = os.getenv("FISHAUDIO_REF_ID", "10424ab2aad1403f9ae9b79e02aaef50")
+FISH_REF_ID = os.getenv("FISHAUDIO_REF_ID", "9091ecdfe0c24303aa31a9e5bf6fa506")
 FISH_PREFERRED_FORMAT = os.getenv("FISHAUDIO_FORMAT", "wav")  # "wav" | "mp3"
 FISH_BASE = os.getenv("FISHAUDIO_API_BASE_URL", "https://api.fish.audio")  # HTTP 直连时使用
 
